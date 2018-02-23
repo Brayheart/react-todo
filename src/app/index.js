@@ -1,6 +1,10 @@
 
-var React = require('react');
-var ReactDom = require('react-dom');
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+//imports give error
+
+var React = require('.../node_modules/react');
+var ReactDom = require('.../node_modules/react-dom');
 
 //create component
 var TodoComponent = React.createClass({
